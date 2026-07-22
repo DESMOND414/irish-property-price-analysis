@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Raw source data (108MB+) — never commit. See README for how to obtain it.
+data/raw/*.csv
+
+# Full cleaned dataset — still large (~800k rows). Only the sample and
+# aggregated summary below are committed for reproducibility on GitHub.
+data/clean/properties_clean.csv
