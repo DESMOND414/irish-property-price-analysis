@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .DS_Store
+.env
 
 # Raw source data (108MB+) — never commit. See README for how to obtain it.
 data/raw/*.csv
@@ -10,3 +11,7 @@ data/raw/*.csv
 # Full cleaned dataset — still large (~800k rows). Only the sample and
 # aggregated summary below are committed for reproducibility on GitHub.
 data/clean/properties_clean.csv
+
+# Raw county boundary source (4MB, third-party). We dissolve it down to a
+# small 26-county file (data/geo/ireland_counties_26.geojson) that IS committed.
+data/geo/ireland-counties-raw.geojson

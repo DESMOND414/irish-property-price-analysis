@@ -1,0 +1,54 @@
+{
+  "linear_regression": {
+    "r2": 0.4040780714182105,
+    "mae_log": 0.40236238229821775,
+    "mae_eur": 106798.03294373503
+  },
+  "random_forest": {
+    "r2": 0.41882389494166683,
+    "mae_log": 0.39507821837044343,
+    "mae_eur": 105002.23644038,
+    "top_features": [
+      {
+        "feature": "cat__county_Dublin",
+        "importance": 0.4113
+      },
+      {
+        "feature": "remainder__year",
+        "importance": 0.3663
+      },
+      {
+        "feature": "cat__county_Wicklow",
+        "importance": 0.0417
+      },
+      {
+        "feature": "cat__description_New Dwelling house /Apartment",
+        "importance": 0.0398
+      },
+      {
+        "feature": "cat__county_Kildare",
+        "importance": 0.0359
+      },
+      {
+        "feature": "cat__county_Cork",
+        "importance": 0.034
+      },
+      {
+        "feature": "cat__county_Meath",
+        "importance": 0.0282
+      },
+      {
+        "feature": "cat__county_Galway",
+        "importance": 0.0176
+      },
+      {
+        "feature": "cat__description_Second-Hand Dwelling house /Apartment",
+        "importance": 0.0088
+      },
+      {
+        "feature": "cat__county_Donegal",
+        "importance": 0.0054
+      }
+    ]
+  }
+}
